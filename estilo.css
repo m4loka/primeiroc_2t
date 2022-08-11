@@ -1,5 +1,43 @@
-estilo.css
-body{ background: green}
+body {
+  background: rgb(133, 108, 100)
+}
 h1 {
   text-align: center;
+}
+.caixa1 {
+   position: relative;
+   background: rgb(161, 230, 218);
+   width: 200px;
+   height: 200px;
+   color: #FFFFFF;
+   left: 50%;
+}
+.menuPrincipal {
+  position: absolute;
+  background: rgb(158, 104, 155);
+  width: 100%;
+  height: 45px;
+  top: 0pt;
+  left: 0;
+}
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color:rgb(231, 231, 176);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+li a:hover{
+  background: rgb(219, 209, 151);
+  color: black;
 }
